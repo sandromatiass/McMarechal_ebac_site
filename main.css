@@ -14,7 +14,7 @@ body {
   color: #fff;
 }
 
-header {
+header h1, h2, h3{
   font-family: "Chakra Petch", sans-serif;
 }
 
@@ -78,4 +78,15 @@ section .container_about h2, h3 {
 .mainImagem {
   max-width: 600px;
   height: auto;
+}
+
+section .container_videos h3 {
+  font-size: 40px;
+  padding: 5px;
+}
+
+section .container_videos div {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
