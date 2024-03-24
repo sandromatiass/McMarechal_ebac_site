@@ -14,7 +14,7 @@ body {
   color: #fff;
 }
 
-header h1, h2, h3{
+header h1, h2, h3, h4{
   font-family: "Chakra Petch", sans-serif;
 }
 
@@ -88,5 +88,37 @@ section .container_videos h3 {
 section .container_videos div {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 12px;
+}
+
+
+.imagemMedia {
+  max-width: 250px;
+  height: auto;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+section .container_socialMedia {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(98, 98, 98);
+}
+
+section .container_socialMedia li, a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Chakra Petch", sans-serif;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+
+section .container_socialMedia a:hover {
+  text-decoration: underline;
+}
+
+section h4 {
+  font-size: 45px;
 }
