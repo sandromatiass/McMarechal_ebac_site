@@ -14,7 +14,7 @@ body {
   color: #fff;
 }
 
-header h1, h2, h3, h4{
+header h1, h2, h3, h4, h5{
   font-family: "Chakra Petch", sans-serif;
 }
 
@@ -104,6 +104,7 @@ section .container_socialMedia {
   align-items: center;
   gap: 50px;
   background-color: rgb(98, 98, 98);
+  border-radius: 10px;
 }
 
 section .container_socialMedia li, a {
@@ -113,12 +114,60 @@ section .container_socialMedia li, a {
   color: #fff;
   font-size: 25px;
   text-align: center;
+  margin-right: 15px;
 }
 
 section .container_socialMedia a:hover {
   text-decoration: underline;
 }
 
-section h4 {
+section h4, h5 {
   font-size: 45px;
 }
+
+.dual_section {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  background-color: rgb(98, 98, 98);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+} 
+
+form textarea {
+  resize: none;
+  height: 75px;
+}
+
+form button {
+  background-color: #C61919;
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #9a1717;
+}
+
+input:focus, textarea:focus {
+  outline-color: #dc1e1e;
+}
+
